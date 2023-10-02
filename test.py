@@ -1,17 +1,17 @@
 # cs_practice
-def area_rectangle(length,width):
- def calculate_rectangle_area(length, width):
+def calculate_rectangle_area(length, width):
     area = length * width
     return area
 
-# 输入长和宽
-length = float(input("请输入长方形的长度: "))
-width = float(input("请输入长方形的宽度: "))
+# Input the length and width
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
 
-# 调用函数计算面积
+# Call the function to calculate the area
 result = calculate_rectangle_area(length, width)
 
-# 显示结果
-print(f"长方形的面积是: {result}")
+# Display the result
+print(f"The area of the rectangle is: {result}")
+
 
   return print("Make a change")
